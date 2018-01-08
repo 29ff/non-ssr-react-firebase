@@ -21,7 +21,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "webpack": "webpack --config webpack.config.js",
-    "firebase": "yarn webpack && yarn babel && firebase serve"
+    "firebase": "yarn webpack && yarn babel && firebase serve --only functions,hosting",
+    "babel": "babel src -d functions/src && babel index.js -d functions"
   },
   "repository": {
     "type": "git",
