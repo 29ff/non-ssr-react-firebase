@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "non-srr-react-firebase",
+    "non-ssr": "non-srr-react-firebase"
+  }
+}
